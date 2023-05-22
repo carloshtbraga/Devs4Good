@@ -1,0 +1,58 @@
+
+.container-fluid {
+    padding: 0;
+  }
+  
+  #mainSlider .carousel-inner, #mainSlider .carousel-item {
+    height: 70vh;
+ 
+  }
+  
+  #mainSlider .carousel-caption {
+    top: 30%;
+   
+  }
+  
+  #mainSlider .carousel-caption h2 {
+    font-size: 50px;
+    margin-bottom: 30px;
+    /* background-color: rgba(0, 0, 0, 0.091); */
+    border-radius: 10px;
+    color: rgb(238, 238, 238);
+    -webkit-text-stroke: 0.6px black
+  }
+  
+  #mainSlider .carousel-caption p {
+    font-size: 22px;
+    font-weight: 300;
+    margin-bottom: 100px;
+    color: rgb(238, 238, 238);
+    /* background-color: rgba(0, 0, 0, 0.091); */
+    font-weight: 600;
+    border-radius: 10px;  
+    -webkit-text-stroke: 0.5px black
+  }
+  
+  .main-btn {
+    background-color: var(--cor-destaque);;
+    color: #FFF;
+    text-transform: uppercase;
+    width: 200px;
+    height: 60px;
+    padding: 10px 20px;
+    border-radius: 30px;
+    border: 3px solid transparent;
+    transition: .5s;
+  }
+  
+  .main-btn:hover {
+    text-decoration: none;
+    color: var(--cor-destaque);
+    background-color: transparent;
+    border-color: var(--cor-destaque);
+    transition: 1s;
+  }
+  
+  .carousel-indicators .active {
+    background-color: var(--cor-destaque);
+  }

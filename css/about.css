@@ -1,0 +1,34 @@
+
+#about-area {
+    background-color: rgb(60,60,60);
+  }
+
+  .pred
+  
+  .main-title {
+    color: var(--cor-letras);
+    margin: 0 0 65px 0;
+    font-size: 40px;
+    text-align: center;
+  }
+  
+  .about-title {
+    font-size: 17px;
+    color: var(--cor-letras);
+    text-transform: uppercase;
+    font-weight: bold;
+  }
+  
+  #about-list {
+    list-style: none;
+    padding-left: 0;
+  }
+  
+  #about-list li {
+    line-height: 30px;
+  }
+  
+  #about-list i {
+    color: var(--cor-destaque);
+    margin-right: 15px;
+  }

@@ -1,0 +1,63 @@
+header, .navbar {
+    background-color: rgb(40,40,40);
+  }
+  
+  #nav-container {
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+
+  .services-area{
+    background-color: red;
+  }
+  
+  #logo {
+    width: 75px;
+  }
+  
+  .navbar-brand {
+    padding: 0;
+    color: #FFF;
+  }
+
+  #home-menu:hover{
+    color:var(--cor-destaque);
+    transition: 1s;
+  }
+  #about-menu:hover{
+    color:var(--cor-destaque);
+    transition: 1s;
+  }
+  #services-menu:hover{
+    color:var(--cor-destaque);
+    transition: 1s;
+  }
+  #team-menu:hover{
+    color:var(--cor-destaque);
+    transition: 1s;
+  }
+  #portfolio-menu:hover{
+    color:var(--cor-destaque);
+    transition: 1s;
+  }
+  #contact-menu:hover{
+    color:var(--cor-destaque);
+    transition: 1s;
+  }
+  
+  .navbar-brand:hover {
+    color: #FFF;
+    transition: 1s;
+  }
+  
+  #navbar-links a {
+    color: #FFF;
+  }
+  
+  .navbar-expand-lg .navbar-nav .nav-link {
+    padding: 1rem .8rem;
+  }
+  
+  .nav-item.active {
+    border-bottom: 3px solid blue;
+  }
