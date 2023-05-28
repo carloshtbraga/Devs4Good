@@ -6,7 +6,9 @@
   <title>Devs4Good
   </title>
   <!-- Fonte -->
-  <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,700&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;0,700;0,900;1,400;1,700&display=swap" rel="stylesheet">
   <!-- Estilos -->
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
   <link rel="stylesheet" href="css/styles.css">
@@ -46,7 +48,7 @@
           <div class="navbar-nav">
             <a class="nav-item nav-link" id="home-menu" href="#">Home</span></a>
             <a class="nav-item nav-link" id="about-menu" href="#about-area">A empresa</a>
-            <a class="nav-item nav-link" id="services-menu" href="#services-area"">Serviços</a>
+            <a class="nav-item nav-link" id="services-menu" href="#services-area">Serviços</a>
             <a class="nav-item nav-link" id="team-menu" href="#team-area">Time</a>
             <a class="nav-item nav-link" id="portfolio-menu" href="#portfolio-area">Projetos</a>
             <a class="nav-item nav-link" id="contact-menu" href="#contact-area">Contato</a>
@@ -226,7 +228,7 @@
           <div class="row">
             <div class="col-md-12">
               <h3 class="main-title">Conheça nossos projetos</h3>
-              <BR></BR>
+              <br />
             </div>
             <div class="col-md-4 project-box dev">
               <img src="img/proj1.png" class="img-fluid" alt="Projeto 1">
@@ -253,27 +255,17 @@
   </main>
   <!-- Rodapé -->
   <footer>
-    <div id="contact-area">
-      <div class="container">
-          <div class="row">
-            <div class="col-md-12">
-              <h3 class="main-title">Entre em contato conosco</h3>
-            </div>
-         
-            <div class="col-md-4 contact-box">
-              <i class="fas fa-envelope"></i>
-              <p><span class="contact-tile">Se preferir envie um email:</span>devs4good@gmail.com</p>
-            </div>
-            <div class="col-md-6" id="contact-form">
-              <form action="">
-                <input type="text" class="form-control" placeholder="E-mail" name="email">
-                <input type="text" class="form-control" placeholder="Assunto" name="subject">
-                <textarea class="form-control" rows="3" placeholder="Sua mensagem..." name="message"></textarea>
-                <input type="submit" class="main-btn">
-              </form>
-            </div>
-          </div>
-      </div>
+    <div class="footer-container-form">
+      <h1 class="footer-title">Peça seu projeto</h1>
+      <div class="footer-risk"></div>
+      <form class="footer-form">
+        <input type="text" placeholder="Qual seu nome ?" class="footer-input-txt">
+        <input type="text" placeholder="Qual o nome da sua empresa ?" class="footer-input-txt">
+        <input type="tel" placeholder="Qual o seu telefone ?" class="footer-input-txt">
+        <input type="email" placeholder="E-mail" class="footer-input-txt">
+        <textarea placeholder="Como podemos te ajudar hoje ?" class="footer-input-txt-area"></textarea>
+        <button type="submit" class="footer-btn-send" >Enviar</button>
+      </form>
     </div>
     <div id="copy-area">
       <div class="container">
