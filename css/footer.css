@@ -260,4 +260,13 @@ footer {
   color: #c0b7e8;
 }
 
+.footer-container-contato {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+
+  width: 150px;
+  height: 180px;
+}
+
 
