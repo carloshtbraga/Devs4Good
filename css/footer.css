@@ -194,3 +194,50 @@ footer {
   color: var(--cor-destaque);
   transition: 1s;
 }
+
+.footer-container-redes-sociais {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  width: 1140px;
+  height: 280px;
+
+  margin: 6px;
+  padding: 40px;
+
+  border-radius: 10px;
+
+  box-shadow: rgba(243, 243, 243, 0.35) 0px 5px 15px;
+  font-weight: 400;
+}
+
+.footer-img-astronauta {
+  max-width: 250px;
+  height: 250px;
+}
+
+.footer-risk-vertical {
+  width: 70%;
+  height: 2px;
+
+  transform: rotate(90deg);
+
+  background: linear-gradient(
+    270deg,
+    #343045 0%,
+    #c0b7e8 34.9%,
+    #8176af 68.75%,
+    #343045 100%
+  );
+}
+
+.footer-title-redes-sociais {
+  font-family: 'Roboto';
+  font-style: italic;
+  font-weight: 100;
+  font-size: 26px;
+  line-height: 44px;
+
+  color: #ffffff;
+}
