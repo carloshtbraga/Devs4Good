@@ -281,3 +281,45 @@ footer {
   cursor: pointer;
 }
 
+
+@media (min-width: 768px) {
+  .footer-container-redes-sociais {
+    flex-direction: row;
+    align-items: center;
+    max-width: 768px;
+    padding: 40px;
+  }
+
+  .footer-img-astronauta {
+    max-width: 150px;
+    height: auto;
+    margin-bottom: 0;
+  }
+
+  .footer-container-navegacao,
+  .footer-container-contato,
+  .footer-container-conecte {
+    margin-bottom: 0;
+  }
+
+  .footer-container-conecte img {
+    width: 30px;
+    height: 30px;
+  }
+
+  .footer-risk-vertical {
+    width: 70%;
+    height: 3px;
+
+    transform: rotate(90deg);
+
+    background: linear-gradient(
+      270deg,
+      #343045 0%,
+      #c0b7e8 34.9%,
+      #8176af 68.75%,
+      #343045 100%
+    );
+  }
+}
+
