@@ -1,79 +1,196 @@
-
 #contact-area {
-    text-align: center;
-  }
-  
-  .contact-box {
-    padding-bottom: 50px;
-    margin-bottom: 50px;
-    border-bottom: 1px solid var(--cor-destaque);
-  }
-  
-  .contact-box i {
-    color: var(--cor-letras);
-    border-radius: 50%;
-    width: 55px;
-    height: 55px;
-    line-height: 55px;
-    font-size: 24px;
-    margin-bottom: 20px;
-  }
-  
-  .contact-box p {
-    font-size: 16px;
-  }
-  
-  .contact-tile {
-    font-weight: bold;
-    color: var(--cor-destaque);
-  }
-  
-  #msg-box p {
-    font-size: 22px;
-  }
-  
-  #contact-form input[type="text"], #contact-form textarea {
-    margin-bottom: 15px;
-    border-radius: 0;
-  }
-  
-  #contact-form .main-btn {
-    width: 120px;
-    height: 50px;
-  }
-  
-  #contact-form .main-btn:hover {
-    color:var(--cor-destaque);
-    transition: 1s;
-  }
+  text-align: center;
+}
 
-  footer{
-    background-color: rgb(40,40,40);
-  }
-  
-  /* Copy */
-  
-  #copy-area {
-    background-color: (var(--cor-destaque));
-  }
-  
-  #copy-area .container {
-    padding: 10px 0;
-    text-align: center;
-  }
-  
-  #copy-area .container p {
-    margin-bottom: 0;
-  }
-  
-  #copy-area .container a {
-    font-weight: bold;
-    color: var(--cor-letras);
-  }
-  
-  #copy-area .container a:hover {
-    text-decoration: none;
-    color: var(--cor-destaque);
-    transition: 1s;
+.contact-box {
+  padding-bottom: 50px;
+  margin-bottom: 50px;
+  border-bottom: 1px solid var(--cor-destaque);
+}
 
-  }
+.contact-box i {
+  color: var(--cor-letras);
+  border-radius: 50%;
+  width: 55px;
+  height: 55px;
+  line-height: 55px;
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.contact-box p {
+  font-size: 16px;
+}
+
+.contact-tile {
+  font-weight: bold;
+  color: var(--cor-destaque);
+}
+
+#msg-box p {
+  font-size: 22px;
+}
+
+.footer-container-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.footer-form {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+
+  width: 600px;
+
+  padding: 20px;
+}
+
+.footer-title {
+  font-family: 'Roboto';
+  font-style: italic;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 44px;
+
+  color: #ffffff;
+}
+
+.footer-risk {
+  width: 70%;
+  height: 2px;
+  background: linear-gradient(
+    270deg,
+    #343045 0%,
+    #c0b7e8 34.9%,
+    #8176af 68.75%,
+    #343045 100%
+  );
+}
+
+.footer-input-txt {
+  box-sizing: border-box;
+
+  width: 230px;
+  height: 30px;
+
+  margin: 6px;
+  padding: 20px 10px;
+
+  background: transparent;
+  border: 1px solid #ffffff;
+  border-radius: 40px;
+  color: #ffffff;
+
+  outline: none;
+}
+
+.footer-input-txt::placeholder,
+.footer-input-txt-area::placeholder {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+
+  color: #ffffff;
+}
+
+.footer-input-txt:focus,
+.footer-input-txt-area:focus {
+  /* border: 1px solid #8176af; */
+  border: 1px solid #c0b7e8;
+  /* border: 1px solid rgb(163, 1, 163); */
+}
+
+.footer-input-txt-area {
+  box-sizing: border-box;
+
+  width: 500px;
+  height: 170px;
+
+  margin: 6px;
+  padding: 20px;
+
+  background: transparent;
+  border: 1px solid #ffffff;
+  border-radius: 40px;
+  color: #ffffff;
+
+  resize: none;
+
+  outline: none;
+}
+
+.footer-btn-send {
+  width: 214px;
+  height: 48px;
+
+  background: linear-gradient(90deg, #8176af 0%, #c0b7e8 100%);
+  border-radius: 40px;
+  border: none;
+}
+
+.footer-btn-send:hover {
+  background: linear-gradient(90deg, #c0b7e8 0%, #8176af 100%);
+  transition: 1s;
+}
+
+.input-txt {
+  border-radius: 10px;
+  padding: 0 25px;
+  outline: none;
+}
+
+.input-txt-area {
+  border-radius: 0px;
+  height: 150px;
+}
+
+#contact-form .main-btn {
+  width: 120px;
+  height: 50px;
+}
+
+#contact-form .main-btn:hover {
+  color: var(--cor-destaque);
+  transition: 1s;
+}
+
+footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  padding: 10px;
+
+  background-color: rgb(40, 40, 40);
+}
+
+/* Copy */
+
+#copy-area {
+  background-color: (var(--cor-destaque));
+}
+
+#copy-area .container {
+  padding: 10px 0;
+  text-align: center;
+}
+
+#copy-area .container p {
+  margin-bottom: 0;
+}
+
+#copy-area .container a {
+  font-weight: bold;
+  color: var(--cor-letras);
+}
+
+#copy-area .container a:hover {
+  text-decoration: none;
+  color: var(--cor-destaque);
+  transition: 1s;
+}
