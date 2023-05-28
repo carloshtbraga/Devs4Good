@@ -323,3 +323,44 @@ footer {
   }
 }
 
+@media (max-width: 767px) {
+  .footer-container-redes-sociais {
+    flex-direction: column;
+    align-items: center;
+    width: 320px;
+    height: 100%;
+    padding: 40px;
+  }
+
+  .footer-risk-vertical {
+    width: 40%;
+    height: 3px;
+
+    transform: rotate(180deg);
+
+    background: linear-gradient(
+      270deg,
+      #343045 0%,
+      #c0b7e8 34.9%,
+      #8176af 68.75%,
+      #343045 100%
+    );
+  }
+  .footer-container-conecte {
+    justify-content: center;
+    width: 172px;
+  }
+  .footer-container-contato {
+    justify-content: center;
+    width: 172px;
+  }
+  .footer-container-navegacao {
+    justify-content: center;
+    width: 172px;
+  }
+
+  .footer-risk-vertical {
+    margin: 20px 0;
+  }
+}
+
