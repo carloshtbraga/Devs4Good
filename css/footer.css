@@ -269,4 +269,15 @@ footer {
   height: 180px;
 }
 
+.footer-container-conecte {
+  width: 150px;
+  height: 180px;
+}
+
+.footer-container-conecte img {
+  width: 40px;
+  height: 40px;
+
+  cursor: pointer;
+}
 
