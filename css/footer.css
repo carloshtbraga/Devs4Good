@@ -241,3 +241,23 @@ footer {
 
   color: #ffffff;
 }
+
+.footer-container-navegacao {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+
+  width: 150px;
+  height: 180px;
+}
+
+.footer-container-navegacao a {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.footer-container-navegacao a:hover {
+  color: #c0b7e8;
+}
+
+
