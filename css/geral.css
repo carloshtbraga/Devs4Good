@@ -1,40 +1,42 @@
 :root {
-    --cor-destaque: purple;
-    --cor-letras: white;
-  }
-  html {
-    scroll-behavior: smooth;
-  }
-  hr{
-    background-color: purple;
-    height: 1px;
-    width: 50%;
-  }
-  body {
-      font-family: 'Roboto', sans-serif;
-      background-color: rgb(60,60,60);
-    }
-    
-    h5{
-      color: white;
-    }
-    h3{
-      color: white;
-    }
-    .row {
-      margin: 0;
-    }
-    .forgood{
-      color: var(--cor-destaque);
-   
-    }
-    
-    .container {
-      padding: 70px 0;
-    }
-    
-    p, li {
-      color: var(--cor-letras);
-      font-size: 14px;
-    }
-    
+  --cor-destaque: #800080;
+  --cor-letras: #ffffff;
+  --border-color: rgba(87, 0, 87, 0.3);
+  --bg-text: rgba(112, 112, 112, 0.3);
+  --card-bg-shadow: rgba(17, 0, 17, 0.4);
+}
+html {
+  scroll-behavior: smooth;
+}
+hr {
+  background-color: purple;
+  height: 1px;
+  width: 50%;
+}
+body {
+  font-family: "Roboto", sans-serif;
+  background-color: rgb(60, 60, 60);
+}
+
+h5 {
+  color: white;
+}
+h3 {
+  color: white;
+}
+.row {
+  margin: 0 auto;
+}
+.forgood {
+  color: var(--cor-destaque);
+}
+
+.container {
+  padding: 70px 0;
+}
+
+p,
+li {
+  color: var(--cor-letras);
+  font-size: 14px;
+}
