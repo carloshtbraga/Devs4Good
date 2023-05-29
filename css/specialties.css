@@ -11,3 +11,16 @@
   color: #ffffff;
 }
 
+.container-specialties {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 6px;
+
+  max-width: 900px;
+
+  margin: auto;
+
+  border: 2px solid red;
+}
