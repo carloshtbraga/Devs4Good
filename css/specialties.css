@@ -79,3 +79,16 @@
 
   color: #ffffff;
 }
+
+.specialties-risk {
+  width: 70%;
+  height: 2px;
+
+  background: linear-gradient(
+    270deg,
+    #343045 0%,
+    #c0b7e8 34.9%,
+    #8176af 68.75%,
+    #343045 100%
+  );
+}
