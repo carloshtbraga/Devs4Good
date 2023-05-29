@@ -1,40 +1,48 @@
 :root {
-    --cor-destaque: purple;
-    --cor-letras: white;
-  }
-  html {
-    scroll-behavior: smooth;
-  }
-  hr{
-    background-color: purple;
+  --cor-destaque: purple;
+  --cor-letras: white;
+}
+html {
+  scroll-behavior: smooth;
+}
+hr {
+  /* background-color: purple;
     height: 1px;
-    width: 50%;
-  }
-  body {
-      font-family: 'Roboto', sans-serif;
-      background-color: rgb(60,60,60);
-    }
-    
-    h5{
-      color: white;
-    }
-    h3{
-      color: white;
-    }
-    .row {
-      margin: 0;
-    }
-    .forgood{
-      color: var(--cor-destaque);
-   
-    }
-    
-    .container {
-      padding: 70px 0;
-    }
-    
-    p, li {
-      color: var(--cor-letras);
-      font-size: 14px;
-    }
-    
+    width: 50%; */
+  width: 70%;
+  height: 2px;
+  background: linear-gradient(
+    270deg,
+    #343045 0%,
+    #c0b7e8 34.9%,
+    #8176af 68.75%,
+    #343045 100%
+  );
+}
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: rgb(60, 60, 60);
+}
+
+h5 {
+  color: white;
+}
+h3 {
+  color: white;
+}
+.row {
+  margin: 0;
+}
+.forgood {
+  color: var(--cor-destaque);
+}
+
+.container {
+  padding: 70px 0;
+}
+
+p,
+li {
+  color: var(--cor-letras);
+  font-size: 14px;
+}
