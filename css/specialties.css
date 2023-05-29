@@ -53,3 +53,16 @@
 
   color: #ffffff;
 }
+
+.specialties-background-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  width: 120px;
+  height: 120px;
+
+  background: rgba(14, 14, 14, 0.32);
+  border-radius: 50%;
+}
+
