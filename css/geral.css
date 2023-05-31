@@ -1,11 +1,15 @@
 :root {
-  --cor-destaque: purple;
-  --cor-letras: white;
+estaque: #800080;
+  --cor-letras: #ffffff;
+  --border-color: rgba(87, 0, 87, 0.3);
+  --bg-text: rgba(112, 112, 112, 0.3);
+  --card-bg-shadow: rgba(17, 0, 17, 0.4);
 }
 html {
   scroll-behavior: smooth;
 }
 hr {
+
   /* background-color: purple;
     height: 1px;
     width: 50%; */
@@ -21,6 +25,10 @@ hr {
 }
 body {
   font-family: 'Roboto', sans-serif;
+  height: 1px;
+  width: 50%;
+}
+body {
   background-color: rgb(60, 60, 60);
 }
 

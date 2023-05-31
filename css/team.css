@@ -1,17 +1,24 @@
 .card {
-
   background-color: rgb(80, 80, 80);
   margin-top: 30px;
   width: 80%;  
+  margin: 0 auto;
+  box-shadow: -4px 4px 8px var(--card-bg-shadow);
 }
 
-
+.card img {
+  width: 90%;
+  margin: 0 auto;
+  margin-top: 5%;
+  border-radius: 5px;
+  box-shadow: -4px 4px 8px var(--card-bg-shadow);
+}
 
 .card-body {
   text-align: center;
   background-color: rgb(80,80,80);
   border-radius: 0px 0px 7px 7px;
-
+  margin-top: 10px;
 }
 
 .main-title1{
@@ -20,10 +27,15 @@
 }
 
 .card-text {
-  background-color: rgb(189, 189, 189);
-  width: 50%;
+  margin: 0 auto;
+  margin-top: 5px;
   text-align: center;
-  margin-left: 25%;
-  border-radius: 3px;
+  background-color: var(--bg-text);
+  border-left: 3px solid var(--border-color);
+  border-right: 3px solid var(--border-color);
+  box-shadow: 0 0 5px var(--card-bg-shadow);
   color: black;
+  padding: 2px;
+  width: 70%;
+  border-radius: 3px;
 }
