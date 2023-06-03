@@ -13,10 +13,10 @@
   <link rel="stylesheet" href="css/header.css">
   <link rel="stylesheet" href="css/carrosel.css">
   <link rel="stylesheet" href="css/about.css">
-  <link rel="stylesheet" href="css/geral.css">
   <link rel="stylesheet" href="css/especialidades.css">
   <link rel="stylesheet" href="css/team.css">
   <link rel="stylesheet" href="css/footer.css">
+  <link rel="stylesheet" href="css/geral.css">
   <!-- Scripts (jQuery não pode ser o slim que vem do Boostrap) -->
   <script
   src="https://code.jquery.com/jquery-3.4.1.min.js"
@@ -34,10 +34,9 @@
 <body>
   <header>
     <div class="container" id="nav-container">
-      <!-- add essa class -->
       <nav class="navbar navbar-expand-lg fixed-top navbar-dark">
         <a class="navbar-brand" href="index.html">
-          <img id="logo" src="img/3.png" alt="hDC Agency"> Devs<span class="forgood">4Good</span>
+          <img id="logo" src="img/astronauta2.jpg" alt="hDC Agency"> Devs<span class="forgood">4Good</span>
         </a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-links" aria-controls="navbar-links" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
@@ -84,14 +83,14 @@
               <a href="#" class="main-btn">Entre em contato</a>
             </div>
           </div>
-          <div class="carousel-item">
-            <img src="img/banner3.jpg" class="d-block w-100" alt="Manutenção em software">
+          <!-- <div class="carousel-item">
+            <img src="img/banner1.jpg" class="d-block w-100" alt="Manutenção em software">
             <div class="carousel-caption d-md-block">
               <h2>Todo o serviço é grátis</h5>
                 <p class="pred">Nossa equipe de desenvolvedores são voluntários digitais e queremos te ajudar a ajudar.</p>
               <a href="#" class="main-btn">Entre em contato</a>
             </div>
-          </div>
+          </div> -->
         </div>
         <a class="carousel-control-prev" href="#mainSlider" role="button" data-slide="prev">
           <span class="carousel-control-prev-icon" aria-hidden="true"></span>
@@ -130,7 +129,7 @@
             </div>
           </div>
       </div>
-<hr>
+<!-- <hr> -->
       <!-- Serviços da empresa -->
       <div id="services-area">
         <div class="container">
@@ -176,8 +175,8 @@
         <div class="container1">
           <div class="row">
             <div class="col-12">
-              <hr>
-              <h3 class="main-title1">Nosso time</h3>
+              <!-- <hr> -->
+              <h3 class="main-title">Nosso time</h3>
               
             </div>
             <div class="col-md-3">
@@ -191,6 +190,15 @@
             </div>
             <div class="col-md-3">
               <div class="card">
+                <img src="img/profile3.jpg" class="card-img-top" alt="Imagem de Perfil 3">
+                <div class="card-body">
+                  <h5 class="card-title1">José Alves</h5>
+                  <p class="card-text">Co-founder</p>
+                </div>
+              </div>
+            </div>
+                        <div class="col-md-3">
+              <div class="card">
                 <img src="img/profile2.jpg" class="card-img-top" alt="Imagem de Perfil 2">
                 <div class="card-body">
                   <h5 class="card-title1">Vitor Nogueira</h5>
@@ -198,15 +206,7 @@
                 </div>
               </div>
             </div>
-            <div class="col-md-3">
-              <div class="card">
-                <img src="img/profile3.jpg" class="card-img-top" alt="Imagem de Perfil 3">
-                <div class="card-body">
-                  <h5 class="card-title1">José Alves</h5>
-                  <p class="card-text">Back-End</p>
-                </div>
-              </div>
-            </div>
+            
             <div class="col-md-3">
               <div class="card">
                 <img src="img/profile4.jpg" class="card-img-top" alt="Imagem de Perfil 4">
@@ -219,14 +219,14 @@
           </div>
         </div>
       </div>
-      </div>
-      <!-- Portfólio -->
-      <div id="portfolio-area">
-        <div class="container">
+    </div>
+    <!-- Portfólio -->
+    <div id="portfolio-area">
+      <!-- <hr> -->
+      <div class="container">
           <div class="row">
             <div class="col-md-12">
               <h3 class="main-title">Conheça nossos projetos</h3>
-              <BR></BR>
             </div>
             <div class="col-md-4 project-box dev">
               <img src="img/proj1.png" class="img-fluid" alt="Projeto 1">
@@ -255,15 +255,18 @@
   <footer>
     <div id="contact-area">
       <div class="container">
-          <div class="row">
-            <div class="col-md-12">
-              <h3 class="main-title">Entre em contato conosco</h3>
+        <div class="row">
+          <div class="col-md-12">
+            <h3 class="main-title">Entre em contato conosco</h3>
+       
             </div>
-         
-            <div class="col-md-4 contact-box">
-              <i class="fas fa-envelope"></i>
-              <p><span class="contact-tile">Se preferir envie um email:</span>devs4good@gmail.com</p>
-            </div>
+      
+            <!-- <div class="col-md-4 contact-box"> -->
+              <!-- <i class="fas fa-envelope"></i>
+              <p><span class="contact-tile">Se preferir envie um email:</span>devs4good@gmail.com</p> -->
+            <!-- </div> -->
+            
+            <img class='astrofooter'src="https://neostartup.com.br/images/sobre-2.webp" alt="">
             <div class="col-md-6" id="contact-form">
               <form action="">
                 <input type="text" class="form-control" placeholder="E-mail" name="email">
@@ -279,7 +282,7 @@
       <div class="container">
         <div class="row">
             <div class="col-md-12">
-              <p>Desenvolvido por <a href="https://www.horadecodar.com.br" target="_blank">Devs4Good</a> &copy; 2023</p>
+              <p>Desenvolvido por <a href="https://www.devs4good.com.br" target="_blank">Devs4Good</a> &copy; 2023</p>
             </div>
         </div>
       </div>

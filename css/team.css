@@ -1,3 +1,9 @@
+#team-area {
+  margin: 0 auto;
+  background-color: rgb(40,40,40);
+  padding: 100px 50px;
+}
+
 .card {
   background-color: rgb(80, 80, 80);
   margin-top: 30px;
@@ -21,9 +27,12 @@
   margin-top: 10px;
 }
 
-.main-title1{
-  text-align: center;
-  margin-top: 70px;
+
+.main-title h3 {
+  font-size: 50px;
+  margin-top: 30px;
+  color: rgb(238, 238, 238);
+  -webkit-text-stroke: 0.6px black;
 }
 
 .card-text {
@@ -31,10 +40,10 @@
   margin-top: 5px;
   text-align: center;
   background-color: var(--bg-text);
-  border-left: 3px solid var(--border-color);
-  border-right: 3px solid var(--border-color);
+  /* border-left: 3px solid var(--border-color); */
+  /* border-right: 3px solid var(--border-color); */
   box-shadow: 0 0 5px var(--card-bg-shadow);
-  color: black;
+  color: whitek;
   padding: 2px;
   width: 70%;
   border-radius: 3px;

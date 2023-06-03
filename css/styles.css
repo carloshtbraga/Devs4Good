@@ -29,7 +29,7 @@
       left: 10%;
       right: 10%;
     }
-    
+
     /* about */
     #about-area img {
       margin-top: 100px;
@@ -51,7 +51,6 @@
     }
   
     .card-text h2{
-
       font-size: 12px;
     }
   
@@ -88,6 +87,7 @@
   
   @media(max-width: 425px) {
   
+
     /* slider */
     #mainSlider {
       margin-top: 90px;
@@ -98,7 +98,7 @@
     }
   
     #mainSlider .carousel-caption h2 {
-      font-size: 18px;
+      font-size: 1px;
       margin-bottom: 40px;
     }
   
@@ -107,13 +107,12 @@
     }
   
     .carousel-caption .main-btn {
-      
       font-size: 14px;
     }
   
     /* about */
     .main-title {
-      font-size: 30px;
+      /* background-color: red; */
     }
   
     #about-area img {
@@ -125,9 +124,9 @@
     .circle-box {
       width: 50%;
     }
-  
+
     #team-area .col-md-3 {
-      width: 50%;
+      width: 100%;
       margin-bottom: 30px;
     }
   
