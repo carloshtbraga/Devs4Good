@@ -26,6 +26,7 @@ h3 {
 }
 .row {
   margin: 0 auto;
+  gap: 20px 0;
 }
 .forgood {
   color: var(--cor-destaque);
