@@ -125,7 +125,12 @@
     .circle-box {
       width: 50%;
     }
-  
+    
+    #team-area div {
+      padding-bottom: 20px;
+      background-color: rebeccapurple;
+    }
+
     #team-area .col-md-3 {
       width: 50%;
       margin-bottom: 30px;
