@@ -1,8 +1,13 @@
-
 #contact-area {
     text-align: center;
   }
   
+  #contact-area .row {
+    margin: 0 auto;
+    justify-content: center;
+    
+  }
+
   .contact-box {
     padding-bottom: 50px;
     margin-bottom: 50px;
@@ -54,7 +59,7 @@
   /* Copy */
   
   #copy-area {
-    background-color: (var(--cor-destaque));
+    background-color:rgb(60,60,60);
   }
   
   #copy-area .container {
@@ -76,4 +81,8 @@
     color: var(--cor-destaque);
     transition: 1s;
 
+  }
+
+  .astrofooter{
+    width: 260px;
   }

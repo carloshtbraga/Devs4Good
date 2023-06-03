@@ -36,6 +36,10 @@ h3 {
   padding: 70px 0;
 }
 
+main {
+  padding: 70px 0;
+}
+
 p,
 li {
   color: var(--cor-letras);

@@ -3,12 +3,14 @@
     background-color: rgb(40,40,40);
   }
 
-  .pred
+ .img-fluid{
+  width: 400px;
+ }
   
   .main-title {
     color: var(--cor-letras);
     margin: 0 0 65px 0;
-    font-size: 40px;
+    font-size: 25px;
     text-align: center;
   }
   
