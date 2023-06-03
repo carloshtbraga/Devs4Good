@@ -24,9 +24,7 @@
 .main-title{
   text-align: center;
   width: 70%;
-  /* border-radius: 3px; */
-  margin: 0 auto;
-  /* margin-top: 50px; */
+  margin: auto auto;
   margin-bottom: 50px;
 
   --g: 20px;     /* the gap */
@@ -52,43 +50,12 @@
   filter: grayscale(0%);
 }
 
-/* .main-title::after {
-  content: "";
-  display: block;
-  margin: 0 auto;
-  width: 50%;
-  padding-top: 10px;
-  border-bottom: 3px solid var(--border-color);
+.main-title h3 {
+  font-size: 50px;
+  margin-top: 30px;
+  color: rgb(238, 238, 238);
+  -webkit-text-stroke: 0.6px black;
 }
-
-.main-title::before {
-  content: "";
-  display: block;
-  margin: 0 auto;
-  width: 50%;
-  padding-top: 10px;
-  margin-bottom: 5px;
-  border-bottom: 3px solid var(--border-color);
-}
-
-.main-title:hover::after {
-  content: "";
-  display: block;
-  margin: 0 auto;
-  width: 50%;
-  padding-top: 10px;
-  border-bottom: 3px solid var(--cor-destaque);
-}
-
-.main-title:hover::before {
-  content: "";
-  display: block;
-  margin: 0 auto;
-  width: 50%;
-  padding-top: 10px;
-  margin-bottom: 5px;
-  border-bottom: 3px solid var(--cor-destaque);
-}  */
 
 .card-text {
   margin: 0 auto;
