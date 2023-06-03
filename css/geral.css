@@ -1,5 +1,6 @@
 :root {
-  --cor-destaque: #800080;
+  /* --cor-destaque: #800080; */
+  --cor-destaque: rgb(141, 10, 141);
   --cor-letras: #ffffff;
   --border-color: rgba(87, 0, 87, 0.3);
   --bg-text: rgba(112, 112, 112, 0.3);
@@ -54,7 +55,7 @@ li {
 
   --g: 20px;     /* the gap */
   --b: 3px;    /* border thickness*/
-  --c: purple; /* the color */
+  --c: var(--cor-destaque); /* the color */
   
   
   padding: calc(var(--g) + var(--b));
