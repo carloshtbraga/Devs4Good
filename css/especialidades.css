@@ -8,11 +8,6 @@
   transition: 0.5s;
 }
 
-.main-title {
-  margin-bottom: 40px;
-  text-align: center;
-  
-}
 
 .main-title:hover {
   color: var(--cor-destaque);
