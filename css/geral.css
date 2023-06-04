@@ -32,6 +32,10 @@ h3 {
 .forgood {
   color: var(--cor-destaque);
 }
+.forgood:hover {
+  color: white
+}
+
 
 .container {
   padding: 70px 0;
