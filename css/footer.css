@@ -82,3 +82,11 @@
   .astrofooter{
     width: 260px;
   }
+
+  .astrofooter {
+    transition: transform 3s ease;
+  }
+  
+  .astrofooter:hover {
+    transform: rotate(360deg);
+  }
