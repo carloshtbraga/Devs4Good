@@ -13,15 +13,21 @@ header, .navbar {
   
   #logo {
     width: 75px;
+    transition: transform 2s ease;
   }
 
-
-  #logo {
-    transition: transform 3s ease;
-  }
   
   #logo:hover {
-    transform: rotate(360deg);
+    animation: giro 2s alternate infinite;
+  }
+  
+  @keyframes giro {
+    0% {
+      transform: rotate(-20deg);
+    }
+    100% {
+      transform: rotate(20deg);
+    }
   }
   
   .navbar-brand {
