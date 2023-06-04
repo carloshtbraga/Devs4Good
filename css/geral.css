@@ -131,7 +131,7 @@ li {
   }
 }
 
-@media(max-width: 500px) {
+@media(max-width: 550px) {
  
   
   #mainSlider .carousel-inner, #mainSlider .carousel-item .carrosel-item-active{
