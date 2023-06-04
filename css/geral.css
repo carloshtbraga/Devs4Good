@@ -31,9 +31,11 @@ h3 {
 }
 .forgood {
   color: var(--cor-destaque);
+  transition: 1s;
 }
 .forgood:hover {
-  color: white
+  color: white;
+  transition: 1s;
 }
 
 

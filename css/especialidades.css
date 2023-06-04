@@ -25,9 +25,16 @@
 }
 
 .service-box:hover > i,
-.service-box:hover > h4 {
+.service-box:hover > h4
+ {
   color: var(--cor-destaque);
   transition: 1s;
+  
+  
+}
+
+.service-box:hover i {
+  transform: scale(1.5);
 }
 
 /* .service-box:hover > p{

@@ -5,7 +5,17 @@
 
  .img-fluid{
   width: 420px;
+  transition: 1s;
+
  }
+
+  .img-fluid:hover{
+    transform: scale(1.5);
+    transition: 1s;
+    
+  }
+  
+ 
   
   
   .about-title {
