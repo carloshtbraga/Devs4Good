@@ -8,7 +8,7 @@
   }
   
   #mainSlider .carousel-caption {
-    top: 30%;
+    top: 20%;
   }
   
 #mainSlider img {
@@ -49,8 +49,8 @@
   
   .main-btn:hover {
     text-decoration: none;
-    color: var(--cor-destaque);
-    background-color: transparent;
+    color: white;
+    background-color: rgb(60,60,60);
     border-color: var(--cor-destaque);
     transition: 1s;
   }

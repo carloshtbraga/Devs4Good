@@ -1,17 +1,11 @@
-  
-  /* Footer */
-
- 
-  
-  /* responsive */
+/* 
   @media(max-width: 768px) {
     
-    /* geral */
     .container {
       padding: 20px 0;
     }
     
-    /* slider */
+ 
     #mainSlider .carousel-inner, #mainSlider .carousel-item {
       height: auto;
     }
@@ -30,12 +24,12 @@
       right: 10%;
     }
 
-    /* about */
+
     #about-area img {
       margin-top: 100px;
     }
     
-    /* data */
+   
     .circle-box div {
       padding: 0 10px;
     }
@@ -44,7 +38,6 @@
       font-size: 16px;
     }
     
-    /* team */
     .card-title h5{
       font-size: 14px;
       color: white;
@@ -54,12 +47,10 @@
       font-size: 12px;
     }
   
-    /* apply */
     #apply-area .apply-box {
       padding: 50px 25px;
     }
   
-    /* news */
     #news-area p {
       width: 80%;
       margin-left: auto;
@@ -87,8 +78,10 @@
   
   @media(max-width: 425px) {
   
-
-    /* slider */
+    #mainSlider .carousel-inner, #mainSlider .carousel-item .carrosel-item-active{
+      height: 90vh;
+    }
+    
     #mainSlider {
       margin-top: 90px;
     }
@@ -110,17 +103,13 @@
       font-size: 14px;
     }
   
-    /* about */
-    .main-title {
-      /* background-color: red; */
-    }
-  
+ 
     #about-area img {
       margin-top: 0;
       margin-bottom: 30px;
     }
   
-    /* data */
+ 
     .circle-box {
       width: 50%;
     }
@@ -130,7 +119,7 @@
       margin-bottom: 30px;
     }
   
-    /* apply */
+
     #apply-area {
       height: auto;
     }
@@ -139,16 +128,14 @@
       display: none;
     }
   
-    /* filter */
+
     #portfolio-area .filter-btn {
       margin-bottom: 20px;
     }
   
     .project-box {
       width: 50%;
-    }
-  
-    /* news */
+    } 
     #news-area .main-title {
       font-size: 24px;
     }
@@ -171,10 +158,10 @@
       width: 50%;
     }
   
-    /* contact */
+  
     .contact-box {
       border: none;
       margin-bottom: 0;
     }
   
-  }
+  } */

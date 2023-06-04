@@ -47,10 +47,6 @@
     height: 50px;
   }
   
-  #contact-form .main-btn:hover {
-    color:var(--cor-destaque);
-    transition: 1s;
-  }
 
   footer{
     background-color: rgb(40,40,40);
