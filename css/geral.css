@@ -138,9 +138,9 @@ li {
     height: 25vh;
   }
   
-  #mainSlider {
+  /* #mainSlider {
     margin-top: 90px;
-  }
+  } */
 
   #mainSlider .carousel-caption {
     top: 5%;
