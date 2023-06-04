@@ -91,13 +91,14 @@ li {
 
 .modal-content {
   background-color: rgb(40, 40, 40);
-  margin: 15% auto;
+  margin: 8% auto;
   padding: 20px;
   border: 1px solid #888;
   width: 80%;
   max-width: 800px;
   animation: modalzoom 1s;
   color: white;
+ 
 }
 
 .close {
