@@ -84,7 +84,7 @@
   }
 
   .astrofooter {
-    transition: transform 3s ease;
+    transition: transform 15s ease;
   }
   
   .astrofooter:hover {
