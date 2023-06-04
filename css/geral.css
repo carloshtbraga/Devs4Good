@@ -131,6 +131,39 @@ li {
   }
 }
 
+.he {
+  display: inline-block;
+  position: relative;
+  font-family: Arial, sans-serif;
+}
+
+.he .at {
+  display: inline-block;
+  transition: transform 1s ease;
+  transform-origin: left;
+}
+
+.he:hover .at {
+  transform: translateX(100%);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 @media(max-width: 550px) {
  
   
