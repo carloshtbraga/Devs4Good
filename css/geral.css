@@ -253,7 +253,7 @@ li {
   }
   .main-btn{
    padding: 2px;
-   
+  font-weight: bolder;
     
   }
 
@@ -272,7 +272,7 @@ li {
     }
   
     #mainSlider .carousel-caption h2 {
-      font-size: 28px;
+      font-size: 40px;
     }
   
     #mainSlider .carousel-caption p {
