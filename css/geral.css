@@ -163,101 +163,7 @@ li {
 
 
 
-@media(max-width: 550px) {
- 
-  
-  #mainSlider .carousel-inner, #mainSlider .carousel-item .carrosel-item-active{
-    height: 25vh;
-  }
-  
-  /* #mainSlider {
-    margin-top: 90px;
-  } */
 
-  #mainSlider .carousel-caption {
-    top: 5%;
-  }
-
-  #mainSlider .carousel-caption h2 {
-    font-size: 1px;
-    margin-bottom: 40px;
-  }
-
-  #mainSlider .carousel-caption p {
-    display: none;
-  }
-
-  .carousel-caption .main-btn {
-    font-size: 14px;
-  }
-
-
-  #about-area img {
-    margin-top: 0;
-    margin-bottom: 30px;
-  }
-
-
-  .circle-box {
-    width: 50%;
-  }
-
-  #team-area .col-md-3 {
-    width: 100%;
-    margin-bottom: 30px;
-  }
-
-
-  #apply-area {
-    height: auto;
-  }
-
-  #company-img {
-    display: none;
-  }
-
-
-  #portfolio-area .filter-btn {
-    margin-bottom: 20px;
-  }
-
-  .project-box {
-    width: 50%;
-  } 
-  #news-area .main-title {
-    font-size: 24px;
-  }
-
-  #news-area p {
-    font-size: 16px;
-  }
-
-  #email-input {
-    width: 80%;
-  }
-
-  #call-area p, #call-area #call-btn {
-    font-size: 14px;
-    letter-spacing: 0;
-  }
-
-  #call-area p, #call-area #call-btn {
-    margin: 0;
-    width: 50%;
-  }
-
-
-  .contact-box {
-    border: none;
-    margin-bottom: 0;
-  }
-  .main-btn{
-   padding: 2px;
-  font-weight: bolder;
-    
-  }
-
-}
 
 
   @media(max-width: 1000px) {
@@ -276,7 +182,7 @@ li {
     }
   
     #mainSlider .carousel-caption p {
-      font-size: 18px;
+      font-size: 24px;
       margin-bottom: 40px;
     }
   
@@ -332,6 +238,77 @@ li {
   
     #call-area p, #call-area #call-btn {
       font-size: 16px;
+    }
+  
+  }
+
+
+  @media(max-width: 550px) {
+    header{
+      margin-bottom: 50px;
+    }
+  
+    .main-title {
+      width: 100%;
+    }
+     
+    #mainSlider .carousel-caption {
+      top: 5%;
+    }
+  
+    #mainSlider .carousel-caption h2 {
+      margin-bottom: 30px;
+      color: rgb(238, 238, 238);
+      -webkit-text-stroke: 0.6px black;
+      font-size: 30px;
+  
+    }
+  
+    #mainSlider .carousel-caption p {
+      display: none;
+    }
+  
+    .carousel-caption .main-btn {
+      font-size: 12px;
+    }
+  
+  
+    #about-area img {
+      margin-bottom: 30px;
+    }
+    
+    #about-area p, li {
+      font-size: 13px;
+    }
+  
+  
+  
+    #team-area .col-md-3 {
+      width: 100%;
+      display: flex;
+      margin-bottom: 30px;
+    }
+  
+  
+    #apply-area {
+      height: auto;
+    }
+  
+  
+   
+    .project-box {
+      width: 50%;
+    } 
+   
+  
+    .main-btn{
+     padding: 2px;
+    font-weight: bolder;
+      
+    }
+    .main-title{
+      font-size: 20px;
+      font-weight: bold;
     }
   
   }
