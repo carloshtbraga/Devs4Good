@@ -243,7 +243,7 @@ li {
   }
 
 
-  @media(max-width: 550px) {
+  @media(max-width: 630px) {
     header{
       margin-bottom: 50px;
     }
@@ -302,8 +302,8 @@ li {
    
   
     .main-btn{
-     padding: 2px;
-    font-weight: bolder;
+     padding: 4px;
+    font-weight: 400;
       
     }
     .main-title{

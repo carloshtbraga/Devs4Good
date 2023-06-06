@@ -3,7 +3,7 @@
   margin-bottom: 40px;
 }
 
-.service-box img,
+.service-box i,
 .service-box h4 {
   transition: 0.5s;
 }
@@ -13,7 +13,7 @@
   color: var(--cor-destaque);
   transition: 1s;
 }
-.service-box img {
+.service-box i {
   font-size: 36px;
   margin-bottom: 20px;
   color: var(--cor-letras);
@@ -25,17 +25,17 @@
   margin-bottom: 20px;
 }
 
-.service-box:hover > img,
+.service-box:hover > i,
 .service-box:hover > h4
  {
-  color: white;
+  color: var(--cor-destaque);
   transition: 1s;
   
   
 }
 
-.service-box:hover img {
-  transform: scale(1.4);
+.service-box:hover i {
+  transform: scale(2);
   
 }
 
