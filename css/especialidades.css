@@ -17,6 +17,7 @@
   font-size: 36px;
   margin-bottom: 20px;
   color: var(--cor-letras);
+  width: 100px;
 }
 
 .service-box h4 {
@@ -34,7 +35,7 @@
 }
 
 .service-box:hover img {
-  transform: scale(1.2);
+  transform: scale(1.4);
 }
 
 /* .service-box:hover > p{
