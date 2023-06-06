@@ -28,7 +28,7 @@
 .service-box:hover > img,
 .service-box:hover > h4
  {
-  color: var(--cor-destaque);
+  color: white;
   transition: 1s;
   
   
@@ -36,6 +36,7 @@
 
 .service-box:hover img {
   transform: scale(1.4);
+  
 }
 
 /* .service-box:hover > p{

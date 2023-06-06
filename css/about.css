@@ -10,7 +10,7 @@
  }
 
   #astronautasobre:hover{
-    transform: scale(1.5);
+    transform: perspective(300px) rotateY(180deg);
     transition: 1s;
     
   }
