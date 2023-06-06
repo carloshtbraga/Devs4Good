@@ -3,7 +3,7 @@
   margin-bottom: 40px;
 }
 
-.service-box i,
+.service-box img,
 .service-box h4 {
   transition: 0.5s;
 }
@@ -13,7 +13,7 @@
   color: var(--cor-destaque);
   transition: 1s;
 }
-.service-box i {
+.service-box img {
   font-size: 36px;
   margin-bottom: 20px;
   color: var(--cor-letras);
@@ -24,7 +24,7 @@
   margin-bottom: 20px;
 }
 
-.service-box:hover > i,
+.service-box:hover > img,
 .service-box:hover > h4
  {
   color: var(--cor-destaque);
@@ -33,8 +33,8 @@
   
 }
 
-.service-box:hover i {
-  transform: scale(1.5);
+.service-box:hover img {
+  transform: scale(1.2);
 }
 
 /* .service-box:hover > p{

@@ -2,30 +2,34 @@
 <html>
 <head>
   <style>
-    .image-container {
-      position: relative;
-      display: inline-block;
-    }
-
-    .image-container:hover img {
-      animation: shake 0.5s infinite;
-    }
-
-    @keyframes shake {
-      0% { transform: translate(0, 0); }
-      10%, 30%, 50%, 70%, 90% { transform: translate(-4px, -4px); }
-      20%, 40%, 60%, 80% { transform: translate(4px, 4px); }
-      100% { transform: translate(0, 0); }
-    }
-    img{
-      width: 100px;
-      height: 100px;
+    dialog {
+      width: 300px;
+      padding: 10px;
+      border: none;
     }
   </style>
 </head>
 <body>
-  <div class="image-container">
-    <img src="./img/astronauta1.png" alt="Imagem">
-  </div>
+  <button id="abrirModal">Abrir Modal</button>
+
+  <dialog id="meuModal">
+    <h2>Título do Modal</h2>
+    <p>Conteúdo do modal.</p>
+    <button id="fecharModal">Fechar</button>
+  </dialog>
+
+  <script>
+    const abrirModal = document.getElementById('abrirModal');
+    const fecharModal = document.getElementById('fecharModal');
+    const meuModal = document.getElementById('meuModal');
+
+    abrirModal.addEventListener('click', function() {
+      meuModal.showModal();
+    });
+
+    fecharModal.addEventListener('click', function() {
+      meuModal.close();
+    });
+  </script>
 </body>
 </html>
